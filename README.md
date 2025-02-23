@@ -1,11 +1,11 @@
 # 10-Predicting-Customer-Retention-Based-on-Subscription-Model
 Predicting Customer Retention Based on Subscription Model
 
-Predicting Customer Churn in Subscription Services
+## Predicting Customer Churn in Subscription Services
 Business Problem
 This project aims to predict customer churn for a subscription-based service and identify key factors that contribute to churn.  By predicting which customers are likely to churn, the company can implement targeted retention strategies to minimize revenue loss.    
 
-Data
+## Data
 The primary dataset is a customer churn dataset from Kaggle.    
 
 Data Source: The link is: https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset/data    
@@ -44,7 +44,7 @@ Last Interaction
 
 Churn    
 
-Data Preparation
+## Data Preparation
 Libraries: The project uses Python libraries such as Pandas, NumPy, and Seaborn for data cleaning, manipulation, and visualization.    
 
 Cleaning: The data is cleaned by removing invalid or incomplete rows and filling missing data with mean or averages.    
@@ -61,7 +61,7 @@ Data Dictionary: The data dictionary is provided in the "Data Contents" section 
 
 It describes the type of information contained in each column.    
 
-Methods
+## Methods
 Data Exploration: Pandas, NumPy and Seaborn libraries were used to clean the data by removing invalid/incomplete rows and filling missing data.    
 
 Visualizations such as scatter plots, histograms and box plots were created using Matplotlib, Plotly and/or Seaborn to identify any relationships between variables.    
@@ -86,7 +86,7 @@ Model Evaluation: Model performance was evaluated using metrics like accuracy an
 
 The accuracy, precision, recall, and f1-score were calculated for various model.    
 
-Analysis
+## Analysis
 Data Visualization: Data visualization was used to find relationships between the variables in the dataset.    
 
 A correlation matrix visualized correlations between numerical features.    
@@ -97,7 +97,7 @@ Box plots were used to visualize the distribution of numerical variables across 
 
 Model Performance: The Scikit-learn NN model achieved high accuracy, precision, recall and f1-score amongst other models evaluated.    
 
-Conclusion
+## Conclusion
 The project successfully developed a model to predict customer churn using a Scikit-learn NN network.  The model's high accuracy suggests that it can be used to identify customers at risk of churning.  This allows the business to take proactive measures to retain these customers.    
 
 Future Uses/Additional Applications
